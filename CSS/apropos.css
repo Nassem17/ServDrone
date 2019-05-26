@@ -1,0 +1,527 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  color: #333333;
+}
+
+.navbar {
+  float: left;
+  width: 55%;
+  margin-top: 3%;
+}
+
+.ulnavbar{
+ margin-bottom: 70px;
+}
+
+.linavbar{
+display: inline-block;
+margin-left: 7%;
+font-family: Karla;
+font-weight: 400;
+font-size: 1em;
+color: #33333;
+}
+
+a:hover{
+color: #FF2727;
+}
+
+a{
+  text-decoration: none;
+  color: #333333;
+}
+
+.logo_servdrone{
+ float:left;
+ height:15%;
+ width:15%;
+ margin-left:2%;
+ margin-right: 1%;
+ margin-top: 1%;
+}
+
+.div_panier{
+  float:right;
+  width: 254px;
+  height: 80px;
+  left: 1087px;
+  top: 46px;
+  background: #FFFFFF;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+.img_panier{
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-left: 20%;
+  margin-top: 7%
+}
+
+.img_ux{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.text_panier{
+  font-family: karla;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: normal;
+  float: left;
+  margin-left: 3%;
+  margin-top: 7%;
+}
+
+.panier{
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: normal;
+  margin-left: 68%;
+  margin-top: 22%;
+}
+
+
+
+
+/* IMAGE DU DRONE */
+
+
+.drone_jaune
+{
+
+  width: 100%;
+  height:500px;
+  margin-bottom:100px;
+}
+
+
+
+
+
+/* Bloc " A PROPOS DE NOUS sur l'image" , Mal structuré tant pis */
+/* le seul position absolute de tout mon code  */
+
+.propos_nous
+{
+    position: absolute;
+    margin-left:850px;
+    margin-top:-600px;
+    font-family: Karla;
+    font-size:2em;
+    color: #FF2727;
+}
+
+.a_propos{
+
+  margin-top: -150px;
+  margin-right:80px;
+
+
+
+}
+
+
+/* BLOC AVEC LE TITRE LA START UP */
+.startup
+{
+  font-family: Karla;
+  background-color: #333333;
+  text-align: center;
+  padding-bottom: 70px;
+  padding-top: 5px;
+  color:white;
+  margin-top:-75px;
+  padding-left: 1%;
+  padding-right: 1%;
+
+}
+
+
+
+/*  BLOC QUI ENGLOBE LES 3 DIV */
+.bloc_general
+{
+    margin-top:20px;
+    background-color: #333333;
+    padding-bottom:50px;
+}
+
+
+
+/* Le titre LES FONDATEURS */
+
+.bloc_general h3
+{
+    font-family: Karla;
+    text-align: center;
+    color:white;
+    font-size:1.6em;
+    padding-top:10px;
+}
+
+
+
+/* LE BLOC TOM */
+.Tom
+{
+    border: 1px solid black;
+    border-color: white;
+    margin-left:50px;
+    margin-right:50px;
+    padding-bottom:70px;
+    padding-top:20px;
+}
+
+/* LE PARAGRAPHE DANS LE BLOC TOM*/
+
+
+.Tom p
+{
+
+    color:white;
+    font-family: Karla;
+    padding-left:300px;
+    margin-top: -200px;
+    width:50%;
+}
+
+
+/* IMAGE DE TOM */
+.tom_img
+{
+    width:15%;
+    padding-top:15px;
+    padding-left:15px;
+
+}
+
+/* LE BLOC DE JOHNATTAN */
+
+
+.Johnattan
+{
+    border: 1px solid black;
+    border-color: white;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:25px;
+    padding-bottom:20px;
+
+}
+
+
+/* LE PARAGRAPHE DANS LE BLOC JOHNATTAN*/
+
+.Johnattan p
+{
+     color:white;
+    font-family: Karla;
+    padding-left:300px;
+    margin-top: -120px;
+    width:50%;
+
+}
+
+.jojo {
+  font-weight: bold;
+}
+
+/* IMAGE DE JOHNATTAN*/
+
+.johnattan_img
+{
+    width:15%;
+    padding-top:15px;
+    padding-left:15px;
+
+}
+
+
+
+/* LE BLOC DE ARTURO */
+.Arturo
+{
+    border: 1px solid black;
+    border-color: white;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:25px;
+    padding-bottom:120px;
+}
+
+/* LE PARAGRAPHE DANS LE BLOC ARTURO*/
+
+.Arturo p
+{
+    color:white;
+    font-family: Karla;
+    padding-left:300px;
+    margin-top: -110px;
+    width:50%;
+}
+
+
+/* IMAGE DE ARTURO*/
+
+.arturo_img
+{
+    width:15%;
+    padding-top:15px;
+    padding-left:15px;
+
+
+}
+
+
+/* LE H4 " QUELQUES ARTICLES " */
+
+h4
+{
+    text-align: center;
+    font-family: karla;
+    color: #333333;
+    font-size:1.6em;
+}
+
+
+/* BLOC GENERAL DES ARTICLES */
+.bloc_article
+{
+    margin-top:20px;
+    background-color: #333333;
+    padding-bottom:50px;
+    text-align: center;
+
+}
+
+/* LE JOURNAL DE GAUCHE*/
+.journal2
+{
+   padding-top: 20px;
+    width:17%;
+    padding-right:300px;
+}
+
+/*LE JOURNAL DE DROITE*/
+.journal1
+{
+   padding-top: 20px;
+    width:18%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************* FOOTER *******************************/
+
+.footer {
+
+  float: left;
+
+  background: #333333;
+
+  height: 150px;
+
+  width: 100%;
+
+  margin-top: 30px;
+
+}
+
+
+
+.reseaux_sociaux {
+
+  float: left;
+
+  height: 100%;
+
+  margin-right: 2%;
+
+  width: 20%;
+
+}
+
+
+
+.reseaux {
+
+  text-align: center;
+
+  color: white;
+
+  font-weight: 600;
+
+  font-size: 0.9em;
+
+  margin-top: 10%;
+
+}
+
+
+
+.img_facebook {
+
+  float: left;
+
+  margin-left: 25%;
+
+}
+
+
+
+.img_twitter {
+
+  float: left;
+
+  margin-left: 5%;
+
+}
+
+
+
+.img_instagram {
+
+  float: left;
+
+  margin-left: 5%;
+
+}
+
+
+
+.avis_legal {
+
+  float: left;
+
+  height: 100%;
+
+  margin-right: 2%;
+
+  width: 30%;
+
+}
+
+
+
+.lifooter {
+
+  list-style: none;
+
+  color: white;
+
+  font-weight: 600;
+
+  font-size: 0.9em;
+
+  line-height: 2em;
+
+  margin-left: 15%;
+
+}
+
+
+
+.afooter {
+
+  color: white;
+
+}
+
+
+
+.newsletter {
+
+  float: left;
+
+  height: 100%;
+
+  margin-right: 2%;
+
+  margin-left: 2%;
+
+  width: 40%;
+
+}
+
+
+
+.txtnewsletter {
+
+  color: white;
+
+  font-weight: 600;
+
+  font-size: 0.9em;
+
+  text-align: center;
+
+  margin-top: 25px;
+
+  height: 5px;
+
+}
+
+
+
+.mail {
+
+  float: left;
+
+  margin-left: 4%;
+
+  margin-top: 3%;
+
+}
+
+
+
+.inscrire {
+
+  float: left;
+
+  margin-left: 3%;
+
+  margin-top: 3%;
+
+}
+
+
+
+.copyright {
+
+  clear: both;
+
+  font-weight: 500;
+
+  font-size: 0.6em;
+
+  color: white;
+
+  margin-left: 4%;
+
+}
